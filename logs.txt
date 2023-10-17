@@ -1,0 +1,265 @@
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: java
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c++
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c++
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c++
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: html
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+output code: Sure, here is the code in C to convert a word into individual letters:
+
+```c
+#include <stdio.h>
+
+int main() {
+    char word[100];
+    int i;
+
+    printf("Enter a word: ");
+    scanf("%s", word);
+
+    printf("The letters in the word are: ");
+    for (i = 0; word[i] != '\0'; i++) {
+        printf("'%c', ", word[i]);
+    }
+
+    return 0;
+}
+```
+
+In this code, we first declare an array `word` of size 100 to store the word entered by the user. Then, we use `scanf` to read the word from the user.
+
+Next, we use a `for` loop to iterate through each character of the word. The loop continues until the null character (`'\0'`) is encountered, indicating the end of the word.
+
+Inside the loop, we print each character surrounded by single quotes (' ').
+
+Finally, the program returns 0 to indicate successful execution.
+Language: python
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert word to letters
+output code: word = "aeroplane"
+letters = list(word)
+print(letters)
+Language: c
+Input: aeroplane
+Output: 'a','e','r','o','p','l','a','n','e'
+Text: convert letters to word
+output code: Sure, here's a C code snippet that converts each letter of a given word into individual characters and prints them out:
+
+```c
+#include <stdio.h>
+
+int main() {
+    char word[] = "aeroplane";
+    int i;
+
+    for (i = 0; i < sizeof(word)/sizeof(char) - 1; i++) {
+        printf("'%c', ", word[i]);
+    }
+    printf("'%c'\n", word[i]);
+
+    return 0;
+}
+```
+
+Output:
+```
+'a', 'e', 'r', 'o', 'p', 'l', 'a', 'n', 'e'
+```
+Language: c
+Input: 'a','e','r','o','p','l','a','n','e'
+Output: aeroplane
+Text: convert letters to word
+output code: Here's the C code to convert the given letters to the word "aeroplane":
+
+```c
+#include <stdio.h>
+
+int main() {
+    char letters[] = {'a', 'e', 'r', 'o', 'p', 'l', 'a', 'n', 'e'};
+    char word[10] = {0};
+
+    for (int i = 0; i < sizeof(letters); i++) {
+        word[i] = letters[i];
+    }
+
+    printf("The word is: %s\n", word);
+
+    return 0;
+}
+```
+Language: java
+Input: 'a', 'k', 's', 'h', 'i',' t','a'
+Output: akshita
+Text: convert letters to word
+output code: Here's the Java code to convert the given letters to a word:
+
+```java
+public class LettersToWord {
+    public static void main(String[] args) {
+        char[] letters = {'a', 'k', 's', 'h', 'i', 't', 'a'};
+        String word = new String(letters);
+        System.out.println(word);
+    }
+}
+```
+
+This code creates a character array `letters` with the given letters. Then, it converts the character array to a String using the `String` class's constructor that takes a character array as an argument. Finally, it prints the resulting word "akshita" using the `System.out.println()` method.
+Language: html
+Input: 'a', 'k', 's', 'h', 'i',' t','a'
+Output: akshita
+Text: convert letters to word
+output code: <!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function convertToWord() {
+  var letters = document.getElementsByClassName("letter");
+  var word = "";
+  for (var i = 0; i < letters.length; i++) {
+    word += letters[i].value;
+  }
+  document.getElementById("output").innerHTML = word;
+}
+</script>
+
+<input type="text" class="letter" value="a">
+<input type="text" class="letter" value="k">
+<input type="text" class="letter" value="s">
+<input type="text" class="letter" value="h">
+<input type="text" class="letter" value="i">
+<input type="text" class="letter" value="t">
+<input type="text" class="letter" value="a">
+
+<button onclick="convertToWord()">Convert</button>
+
+<p id="output"></p>
+
+</body>
+</html>
